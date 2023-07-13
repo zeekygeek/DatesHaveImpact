@@ -24,7 +24,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
   var hashedPassword = password * 2; // Multiply password by 2 for storage
 
   // Set a default password for testing purposes
-  var defaultPassword = "a";
+  var defaultPassword = "treeC";
   var hashedDefaultPassword = defaultPassword * 2;
 
   if (localStorage.getItem("password") === String(hashedPassword) || password === defaultPassword) {
